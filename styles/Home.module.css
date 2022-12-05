@@ -127,3 +127,21 @@
     filter: invert(1);
   }
 }
+
+.titlecard {
+  border-style: solid;
+  width: 50rem;
+  height: 100%;
+  margin: 5rem auto;
+  padding: 3rem;
+  border-width: 1px;
+}
+
+.subcard {
+  border-style: solid;
+  width: 75%;
+  height: 100%;
+  margin: 5rem auto;
+  padding: 3rem;
+  border-width: 1px;
+}
