@@ -1,3 +1,8 @@
+This is a simple demonstration of an API call using SWAPI GraphQL - a free GraphQL Database. This website is hosted on vecrel:
+https://swapi-graphql-next-js.vercel.app/
+
+-------------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
