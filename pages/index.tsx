@@ -2,12 +2,12 @@ import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
 import styles from '../styles/Home.module.css'
 
 export default function Home({films}:any) {
-  console.log( films);
+  console.log('films', films);
   return (
    <>
    <div className={styles.titlecard}>
       <h1>Learning  @#$%&! Quick! - with SWAPI</h1>
-      {films.map(film => {
+      {films.map((film: any) => {
         return (
           <div key={films.allFilms} className={styles.subcard}>
             <h1>{film.title}</h1>
