@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
 import styles from '../styles/Home.module.css'
 
-export default function Home({films}) {
+export default function Home({films}:any) {
   console.log( films);
   return (
    <>
